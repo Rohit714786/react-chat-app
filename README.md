@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# React-ChatApp-Coding-Ninjas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hosted-Website Link : - https://cheerful-dango-85a3c4.netlify.app/#/
 
-## Available Scripts
+This is a frontend implementation of a chat application built using React, where users can engage in conversations with their contacts. The application allows users to search for conversations by contact name, view and send messages, and manage conversations.
 
-In the project directory, you can run:
+# Features :- Search Conversations: Users can search for conversations based on contact names.
 
-### `npm start`
+Left Sidebar :- Displays a list of all conversations with contact names and snippets of the last messages. "Create Conversation" button opens a pop-up displaying contacts from the provided dummy data. Clicking on a contact initiates a new conversation or opens an existing one.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Right Side View :- Shows the messages of the currently selected conversation. Users can send messages within the conversation. Error and Success Alerts: The application handles errors and displays appropriate alerts or notifications.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React Router: The application uses react-router for routing between different views.
 
-### `npm test`
+React Hooks: React hooks are exclusively used to manage component state and lifecycle.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Bonus Feature (Optional):Redux is used to store chat messages and conversations, ensuring persistence after a refresh.
 
-### `npm run build`
+# How to Run :-
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install dependencies : npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start the development server : npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Build the development file : npm run build
 
-### `npm run eject`
+Hosted Website Link :- https://clever-pithivier-eaaedc.netlify.app/#/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Technologies Used :-
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React Router
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Redux (Optional, for bonus feature)
 
-## Learn More
+CSS (for styling)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Screenshots :-
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://github.com/AbhijeetKrMishra2/React-ChatApp-Coding-Ninjas/assets/139151966/f0732ab1-1675-4611-8c4b-9d10df48a2ca)
 
-### Code Splitting
+![image](https://github.com/AbhijeetKrMishra2/React-ChatApp-Coding-Ninjas/assets/139151966/1f07bd88-5a62-487a-82d9-805b9732fb19)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://github.com/AbhijeetKrMishra2/React-ChatApp-Coding-Ninjas/assets/139151966/0f0fcde3-ba23-47e0-86ea-33612be5f758)
 
-### Analyzing the Bundle Size
+![image](https://github.com/AbhijeetKrMishra2/React-ChatApp-Coding-Ninjas/assets/139151966/e1a625bf-32dc-4ad2-a871-f543653370aa)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
